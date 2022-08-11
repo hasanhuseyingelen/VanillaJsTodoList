@@ -1,0 +1,130 @@
+.divider { 
+    border: 0; 
+    border: 1px solid #dfdfdf; 
+    margin: 10px; 
+    display: flex; 
+    width:70%; 
+}  
+.taskBox {  
+    align-items: center; 
+    display: flex; 
+    top: 10%; 
+    width: 100%; 
+    height: auto; 
+    flex-direction: column; 
+}  
+.header { 
+    display:flex; 
+    justify-content: space-between; 
+    background-color: #dfdfdf; 
+    padding:10px; 
+    border-bottom: 1px solid #c7c7c7; 
+    border-radius: 5px 5px 0 0; 
+}
+.task {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    width:70%;
+    flex-direction: column;
+}
+.taskItemList .ulList {
+   margin:0; padding:0;
+}
+.taskItemList ul li {  
+    background-color: #f7f7f7;  
+    border-bottom: 1px solid #bbbbbb;  
+    padding: 10px;  
+    list-style-type: none; 
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center; 
+}  
+  
+.taskItemList ul li:hover {  
+    background-color: #c7c7c7;  
+}  
+.liTaskItem { 
+    background-color: #0069D9;
+} 
+
+.margin-10 { margin: 10px 10px; }  
+
+.button {  
+    display: inline-block;  
+    width: 40px;  
+    height: 39px;  
+    border-top-right-radius: 5px;  
+    border-bottom-right-radius: 5px;  
+    border: 1px solid rgba(0, 0, 0, .125);  
+    background: #007bff;  
+    color: white;  
+    position: absolute;  
+    font-size: 25px;  
+   
+}  
+.button:hover {  
+    cursor: pointer;  
+    background: #0069D9;  
+}  
+.clearButton {  
+    float: right;  
+    border-radius: 5px;  
+    background: transparent;  
+    border: 1px solid #dc3545;  
+    padding: 5px 10px;  
+    color: #dc3545;  
+}  
+.clearButton:hover{  
+    background: #dc3545;  
+    color: white;  
+    cursor: pointer;  
+    transition: .3s all;  
+}   
+.addNewApiButton {  
+    display: flex;  
+    width: 100%;  
+    border-radius: 5px;  
+    background: #007bff;  
+    border: 1px solid #ffffff;  
+    padding: 5px 10px;  
+    color: #ffffff;  
+    text-align: center;  
+    height: 50px;  
+    align-items: center;  
+    justify-content: center;  
+    margin-top: 10px;  
+    font-size: large;  
+}
+.addNewApiButton:hover {  
+    cursor: pointer;  
+    background: #0069D9;  
+}  
+.newTaskItemInput {  
+    display: inline-block;  
+    width: calc(100% - 55px);  
+    height: 35px;  
+    border-top-left-radius: 5px;  
+    border-bottom-left-radius: 5px;  
+    border: 1px solid rgba(0, 0, 0, .125);  
+    padding-left: 10px; 
+}
+
+.taskTotalCount { 
+    display: flex;
+    align-items: center; 
+    justify-content:space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
